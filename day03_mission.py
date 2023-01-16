@@ -1,4 +1,4 @@
-# 5.7
+# 5.8
 
 # an English submarine = 'Boaty McBoatface'
 # an Australian racehorse = 'Horsey McHorseface'
@@ -7,6 +7,4 @@
 duck = "Ducky McDuckface"
 gourd = "Gourdy McGourdface"
 spitz = "Spitzy McSpitzface"
-print('''an English submarine 이름은 ({0})로 지어졌다.
-an Australian racehorse 이름은 ({1})로 지어졌다. 
-a Swedish train 이름은 ({2})로 지어졌다.'''.format (duck, gourd, spitz))
+print(f'an English submarine 이름은 ({duck})로 지어졌다.\nan Australian racehorse 이름은 ({gourd})로 지어졌다.\na Swedish train 이름은 ({spitz})로 지어졌다.')
