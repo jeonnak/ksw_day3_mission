@@ -1,10 +1,15 @@
-# 5.8
+# 6.2
+guess_me = 7
+number = 1
 
-# an English submarine = 'Boaty McBoatface'
-# an Australian racehorse = 'Horsey McHorseface'
-# a Swedish train = 'Trainy McTrainface'
-
-duck = "Ducky McDuckface"
-gourd = "Gourdy McGourdface"
-spitz = "Spitzy McSpitzface"
-print(f'an English submarine 이름은 ({duck})로 지어졌다.\nan Australian racehorse 이름은 ({gourd})로 지어졌다.\na Swedish train 이름은 ({spitz})로 지어졌다.')
+while number > 0:
+    print("number is ", number)
+    if number > guess_me:
+        print("oops")
+        break
+    elif number == guess_me:
+        print("found it!")
+        break
+    else:
+        print("too low")
+        number += 1
